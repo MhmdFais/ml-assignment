@@ -22,3 +22,18 @@ For this preprocessing part, fllowing steps have been done
    - Standardize numerical features to improve model performance
 
 4. Split Dataset
+
+### Choosing a ML model
+
+Since this is a binary classification problem we can use the following modles
+
+- Logistic Regression : Simple, interpretable, Works well when data is linearly separable
+- Decision Tree : Handles categorical and numerical data, Prone to overfitting
+- Random Forest : Reduces overfitting, Performs well on structured data
+- Gradient Boosting (XGBoost, LightGBM, CatBoost) : Best for accuracy but computationally expensive
+- Support Vector Machine (SVM) : Works well in small datasets
+- Neural Networks (Deep Learning) : Honestly an overkill for this project
+
+Above are the models we can use for this project and we decided to select **Random Forest** because
+
+- It works well with structured data, avoids overfitting
