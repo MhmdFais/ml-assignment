@@ -37,3 +37,12 @@ Since this is a binary classification problem we can use the following modles
 Above are the models we can use for this project and we decided to select **Random Forest** because
 
 - It works well with structured data, avoids overfitting
+
+### Showing Results
+
+As shown in the program there many factors that impact the income, But we have only chosen to plot charts
+for the following three factors
+
+- Capital Gain
+- Relationship Status
+- Age
